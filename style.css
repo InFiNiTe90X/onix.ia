@@ -1,0 +1,71 @@
+body
+{
+background: black;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Container{
+    background: white;
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+header{
+    background: white;
+    height: 100px;
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+    line-height: 100px;
+    color:black;
+    border-bottom: 3px;
+
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.Clearfix{
+    clear: both;
+
+}
+
+nav{
+    background: gray;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+#Content{
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: gainsboro;
+    padding: 40px;
+
+
+}
+
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    background-color: darkslategrey;
+    min-height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+
+}
+
+footer{
+    background: gray;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
